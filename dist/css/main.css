@@ -1,0 +1,49 @@
+body {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
+
+header .login-button {
+  cursor: pointer;
+}
+
+#main-sec {
+  margin-top: 0;
+  padding-top: 7em;
+}
+
+#main-sec h3 {
+  color: bisque;
+}
+
+#service-sec {
+  background-color: darkgray;
+}
+
+.login-body,
+.login-html {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  height: 100%;
+}
+
+#profile-img {
+  height: 180px;
+}
+
+.h-80 {
+  height: 80% !important;
+}
+/*# sourceMappingURL=main.css.map */
